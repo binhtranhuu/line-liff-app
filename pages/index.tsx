@@ -7,6 +7,7 @@ const Home: NextPage<{ liff: Liff | null; liffError: string | null }> = ({
   liff,
   liffError,
 }) => {
+  console.log('Hello word, my name is lorem', test);
   return (
     <div>
       <Head>
